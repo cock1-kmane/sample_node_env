@@ -6,9 +6,8 @@ node_js:
   - 0.12
 
 env:
-  global:
-    - FOO=FUBU
-    - secure: ZOFihJACYvA8eauL8WblDAImCoolpVPoShS4UjdwpCbTlvjCDDU8h/BHYcjMvGVgtNBh1z/iJJrkYjEU26JKUU1nPAiFzwER7Frclp5OGmIFrvie5Knd90hOqw6gPjxa+FMVQ2zZ3sG6lnxORi+V1it5kH5B/Tqu9nSr0tG/sTiV45EWg4kMBdb7amq14pPfVHbjINBQDE49/0PD0TdgYDYKrz/5AXNeSThpbEk/9VItLyj4cPNrxH7wYIY1QvhPKeDF1lavZLE+Kvok00KHKm5aZwx+izSPgWyMIvFV0JpnFme6tLFUdp1PWPnOsLoOVwyFmj6C+LvYCXddfVrbFQ==
+  - FOO=FUBU
+  - secure: ZOFihJACYvA8eauL8WblDAImCoolpVPoShS4UjdwpCbTlvjCDDU8h/BHYcjMvGVgtNBh1z/iJJrkYjEU26JKUU1nPAiFzwER7Frclp5OGmIFrvie5Knd90hOqw6gPjxa+FMVQ2zZ3sG6lnxORi+V1it5kH5B/Tqu9nSr0tG/sTiV45EWg4kMBdb7amq14pPfVHbjINBQDE49/0PD0TdgYDYKrz/5AXNeSThpbEk/9VItLyj4cPNrxH7wYIY1QvhPKeDF1lavZLE+Kvok00KHKm5aZwx+izSPgWyMIvFV0JpnFme6tLFUdp1PWPnOsLoOVwyFmj6C+LvYCXddfVrbFQ==
 
   matrix:
     - M1=ONE
