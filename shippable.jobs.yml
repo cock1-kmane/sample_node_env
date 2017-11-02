@@ -1,13 +1,28 @@
 jobs:
-  - name:   docker-int-manifest
+  - name:   docker-int-manifest-old
     type:     manifest
     steps:
       - IN: docker-int-image
+
+  - name:   docker-int-manifest
+    type:     manifest
+    steps:
+      - IN: docker-int-image-2
+ 
  
   - name:         ddc-int-deploy
     type:           deploy
     steps:
       - IN: docker-int-manifest
+      - IN: ddc-cluster
+      - TASK: managed
+        deployMethod: upgrade
+
+
+  - name:         ddc-int-deploy-old
+    type:           deploy
+    steps:
+      - IN: docker-int-manifest-old
       - IN: ddc-cluster
       - TASK: managed
         deployMethod: upgrade
