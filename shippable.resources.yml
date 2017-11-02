@@ -1,0 +1,12 @@
+resources:
+  - name:           ddc-cluster
+    type:           cluster
+    integration:    ddc-int
+
+  - name:         docker-int-image
+    type:           image
+    integration: docker-int
+    pointer:       
+      sourceName: devopsrecipes/deploy-dockerdatacenter-basic
+    seed:           
+      versionName: master.1
