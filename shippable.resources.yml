@@ -10,3 +10,11 @@ resources:
       sourceName: devopsrecipes/deploy-dockerdatacenter-basic
     seed:           
       versionName: master.1
+
+  - name:         docker-int-image-2
+    type:           image
+    integration: docker-int
+    pointer:       
+      sourceName: shippabledocker/sample_node_pvt
+    seed:           
+      versionName: latest
